@@ -163,84 +163,55 @@
         </div>
     </section>
 
-    <!--<section class="gallery gallery-1">-->
-    <!--<div class="image-slider">-->
-    <!--<ul class="slides">-->
-    <!--<li class="flex-active-slide"-->
-    <!--style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;">-->
-    <!--<div class="background-image-holder fadeIn"-->
-    <!--style="background: url('images/antigua_small.jpg') 50% 50%;">-->
-    <!--<img alt="Image" class="background-image" src="images/antigua_small.jpg"-->
-    <!--draggable="false"-->
-    <!--style="display: none;">-->
-    <!--</div>-->
-    <!--</li>-->
-
-    <!--<li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">-->
-    <!--<div class="background-image-holder fadeIn"-->
-    <!--style="background: url('images/santa_ana_inside_1.jpg') 50% 50%;">-->
-    <!--<img alt="Image" class="background-image" src="images/santa_ana_inside_1.jpg" draggable="false"-->
-    <!--style="display: none;">-->
-    <!--</div>-->
-    <!--</li>-->
-
-    <!--<li style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 0; display: block; z-index: 1;">-->
-    <!--<div class="background-image-holder fadeIn"-->
-    <!--style="background: url('images/santa_ana_inside_2.jpg') 50% 50%;">-->
-    <!--<img alt="Image" class="background-image" src="images/santa_ana_inside_2.jpg" draggable="false"-->
-    <!--style="display: none;">-->
-    <!--</div>-->
-    <!--</li>-->
-    <!--</ul>-->
-    <!--</div>-->
-    <!--</section>-->
-
-    <!--<a id=" rsvp" class="in-page-link"></a>-->
-
-    <!--<section class="rsvp rsvp-1">-->
-    <!--<div class="container">-->
-    <!--<div class="row">-->
-    <!--<div class="col-sm-12 text-center">-->
-    <!--<h1>Say you'll be there</h1>-->
-    <!--<p>-->
-    <!--Please let us know if you can make it by<br> July 10th at the latest, preesh!-->
-    <!--</p>-->
-    <!--</div>-->
-    <!--</div>-->
-
-    <!--<div class="row">-->
-    <!--<div class="col-sm-12 text-center">-->
-    <!--<form class="form-email" original-error="-->
-    <!--Please fill out all fields-->
-    <!--">-->
-    <!--<div class="form-section">-->
-    <!--<input type="text" name="your-name-names" class="validate-required"-->
-    <!--value="Your Name / Names">-->
-    <!--<div class="radio-group">-->
-    <!--<div class="radio-holder btn checked">-->
-    <!--<span>Can't Wait</span>-->
-    <!--<input type="radio" name="rsvp" value="cant-wait" checked="checked">-->
-    <!--</div>-->
-    <!--<div class="radio-holder btn">-->
-    <!--<span>Can't Come</span>-->
-    <!--<input type="radio" name="rsvp" value="cant-come">-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--<input type="submit" value="RSVP">-->
-    <!--<div class="form-error">-->
-    <!--<span>Please fill out all fields</span>-->
-    <!--</div>-->
-    <!--<div class="form-success">-->
-    <!--<span>Thanks for your RSVP!</span>-->
-    <!--</div>-->
-    <!--</form>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</div>-->
-    <!--</section>-->
-
     <a id="contacto" class="in-page-link"></a>
+
+    <section class="rsvp rsvp-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h1>Avísanos si vas a poder venir!</h1>
+                    <p>
+                        Por favor, avísanos antes del <br>15 de Septiembre, muchas gracias!
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <div class="form-wrapper">
+                        <form class="form-email">
+                            <div class="form-section">
+                                <input type="text" name="name" class="validate-required"
+                                       placeholder="Tu nombre/nombres">
+                                <div class="radio-group">
+                                    <div class="radio-holder btn checked">
+                                        <span>No me lo pierdo!</span>
+                                        <input type="radio" name="rsvp" value="attending" checked="checked">
+                                    </div>
+                                    <div class="radio-holder btn">
+                                        <span>No puedo ir :(</span>
+                                        <input type="radio" name="rsvp" value="not-attending">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-section">
+                                <h6>Alergias/intolerancias alimentarias</h6>
+                                <input type="text" name="foods"
+                                       placeholder="Comidas a evitar">
+                            </div>
+                            <input type="submit" value="Enviar">
+                            <div class="form-error">
+                                <span>Por favor, rellena todos los campos</span>
+                            </div>
+                            <div class="form-success">
+                                <span>Gracias por avisar!</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="details details-2 overlay parallax">
         <div class="background-image-holder fadeIn"
@@ -276,6 +247,12 @@
 <script src="scripts/flexslider.min.js"></script>
 <script src="scripts/scripts.js"></script>
 <script src="scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function () {
+        emailjs.init("user_qs6dnswcpcz3BWqWkX5Kk");
+    })();
+</script>
 
 
 </body>
