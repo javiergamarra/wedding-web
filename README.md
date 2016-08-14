@@ -1,12 +1,10 @@
 # TODO
 
-* Add header url
-* Complete text
-* Test analytics
-* Add real images
-* Add real attribution to images
-* Hashtag
+# Bea
 
-* negrita
-* rvsp
-* comida
+* Add real images + attribution to images
+
+# Javi
+
+* rsvp + comida
+* test en IE
