@@ -6,3 +6,7 @@
 * Add real images
 * Add real attribution to images
 * Hashtag
+
+* negrita
+* rvsp
+* comida
