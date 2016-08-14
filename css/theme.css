@@ -14,9 +14,7 @@
  10. Headers
  11. Story
  12. Details
- 13. Gallery
  14. Accommodation
- 15. Registry
  16. RSVP
  17. Footer
 
@@ -1160,64 +1158,6 @@ nav.light.scrolled .line-3 {
     }
 }
 
-/*!---------- GALLERY ----------*/
-.gallery-1 {
-    padding: 0;
-    height: 650px;
-}
-
-.gallery-1 .slides li {
-    height: 650px;
-}
-
-@media all and (max-width: 767px) {
-    .gallery-1,
-    .gallery-1 .slides li {
-        height: 400px;
-    }
-}
-
-.gallery-2 {
-    padding: 0;
-    height: 600px;
-}
-
-.gallery-2:before {
-    opacity: .6;
-}
-
-.gallery-2 .container {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    z-index: 3;
-}
-
-.gallery-2 h1 {
-    font-size: 120px;
-    color: #fff;
-    font-weight: 100;
-    line-height: 128px;
-    cursor: pointer;
-}
-
-.gallery-2 h6 {
-    color: #fff;
-    cursor: pointer;
-}
-
-@media all and (max-width: 767px) {
-    .gallery-2 h1 {
-        font-size: 60px;
-        max-width: 100%;
-        font-weight: 300;
-        line-height: 68px;
-        margin-bottom: 8px;
-    }
-}
-
 /*!---------- ACCOMMODATION ----------*/
 .accom-1 h1,
 .accom-1 h2,
@@ -1281,58 +1221,6 @@ nav.light.scrolled .line-3 {
 .accom-2 h6 {
     color: #75c5b1;
     margin-bottom: 15px;
-}
-
-/*!---------- REGISTRY ----------*/
-.registry-1 h2 {
-    margin-bottom: 120px;
-}
-
-.registry-1 a {
-    height: 40px;
-    display: block;
-    line-height: 40px;
-    margin-bottom: 60px;
-    transition: all 0.3s ease;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    opacity: .5;
-}
-
-.registry-1 a:hover {
-    opacity: 1;
-}
-
-.registry-1 img {
-    max-width: 225px;
-    display: inline-block;
-    max-height: 120%;
-}
-
-.registry-2 {
-    padding-bottom: 60px;
-}
-
-.registry-2 h2 {
-    margin-bottom: 40px;
-}
-
-.registry-2 p:last-of-type {
-    margin-bottom: 80px;
-}
-
-.registry-2 img {
-    max-height: 110px;
-}
-
-.registry-2 a {
-    display: inline-block;
-    margin: 0 16px;
-    margin-bottom: 60px;
-}
-
-.registry-3:before {
-    opacity: .8;
 }
 
 /*!---------- RSVP ----------*/
