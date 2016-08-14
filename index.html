@@ -16,13 +16,15 @@
 <div class="nav-container">
 
     <nav class="nav nav-1 transparent light fixed scrolled">
-        <a href="index.html" class="logo">
-            <span>Javi &amp; Bea</span>
-            <!--<li><a href="index.html#home" class="inner-link" target="default">Home</a></li>-->
+        <a href="index.html#home" class="inner-link logo">
+            <span style="cursor:pointer">Javi &amp; Bea</span>
         </a>
         <ul class="menu">
-            <li><a href="index.html#wedding" class="inner-link" target="default">boda</a></li>
-            <li><a href="index.html#rsvp" class="inner-link" target="default">rsvp</a></li>
+            <li><a href="index.html#boda" class="inner-link" target="default" style="padding: 10px">boda</a></li>
+            <li><a href="index.html#hotel" class="inner-link" target="default" style="padding: 10px">hotel</a></li>
+            <li><a href="index.html#fotos" class="inner-link" target="default" style="padding: 10px">fotos</a></li>
+            <li><a href="index.html#contacto" class="inner-link" target="default" style="padding: 10px">contacto</a>
+            </li>
         </ul>
         <div class="mobile-toggle">
             <div class="line-1"></div>
@@ -39,28 +41,28 @@
 
     <section class="header header-3 overlay-primary parallax">
         <div class="background-image-holder fadeIn"
-             style="transform: translateY(0px); background: url('images/antigua.jpg') 50% 50%;">
-            <img alt="Background image" class="background-image" src="images/antigua.jpg" style="display: none;">
+             style="transform: translateY(0px); background: url('images/antigua_1.jpg') 50% 50%;top: -50%">
+            <img alt="Background image" class="background-image" src="images/antigua_1.jpg" style="display: none;">
         </div>
 
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <h1>Javi &amp; Bea</h1>
-                    <h3>Acompañanos en nuestra boda el 22 de Octubre</h3>
+                    <h3 style="font-weight: bold">Acompañanos en nuestra boda el 22 de Octubre</h3>
                 </div>
             </div>
         </div>
     </section>
 
-    <a id="wedding" class="in-page-link"></a>
+    <a id="boda" class="in-page-link"></a>
 
     <section class="details details-1">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
                     <h2>Ceremonia &amp; Banquete</h2>
-                    <h6>---</h6>
+                    <h6>Te esperamos en la celebración de este día tan especial</h6>
                 </div>
             </div>
 
@@ -70,7 +72,7 @@
                     <h4>Iglesia de la Antigua</h4>
                     <p>
                         12:30 - 13:30<br>
-                        <br>
+                        Calle Arzobispo Gandásegui<br>
 
                     </p>
                     <div class="maps-overlay" onClick="style.pointerEvents='none'"></div>
@@ -83,7 +85,7 @@
                     <h4>Hotel Palacio de Santa Ana</h4>
                     <p>
                         14:00 - <br>
-                        <br>
+                        Calle Flecha<br>
 
                     </p>
                     <div class="maps-overlay" onClick="style.pointerEvents='none'"></div>
@@ -94,7 +96,27 @@
         </div>
     </section>
 
-    <a id="accomm" class="in-page-link"></a>
+    <a id="video" class="in-page-link"></a>
+
+    <section class="story story-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1 col-sm-6 text-center feature">
+                    <iframe class="vertical-align" width="100%" height="350" src="https://www.youtube.com/embed/Xnf1lsZE2a8" frameborder="0"
+                            allowfullscreen></iframe>
+                </div>
+                <div class="col-md-5 col-sm-6 text-center feature vertical-align">
+                    <p>Crecer</p>
+                    <p>Es aprender a convivir con el miedo a envejecer,</p>
+                    <p>Y sé</p>
+                    <p>Que aunque por fuera todo cambie al final...</p>
+                    <p>Seguiremos siendo eternos... eternos...</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <a id="hotel" class="in-page-link"></a>
 
     <section class="accom accom-1 overlay parallax">
         <div class="background-image-holder fadeIn" style="background: url('images/santa_ana_inside_2.jpg') 50% 50%;">
@@ -107,20 +129,14 @@
                 <div class="col-sm-12 text-center">
                     <h6>¿Dónde alojarnos?</h6>
                     <h1>Hotel Palacio Santa Ana</h1>
-                    <p>
-                        Mention our names when making your reservation<br>
-                        to receive the group booking discount.
-                    </p>
-                    <p>
-                        <br>
-
-                    </p>
+                    <p>Menciona nuestros nombres y la fecha de la boda<br/> y te ofrecerán un descuento en las
+                        habitaciones</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <a id="story" class="in-page-link"></a>
+    <a id="fotos" class="in-page-link"></a>
 
     <section class="story story-4">
         <div class="container">
@@ -220,23 +236,8 @@
     <!--</div>-->
     <!--</div>-->
     <!--</section>-->
-    <a id="video" class="in-page-link"></a>
 
-    <section class="story story-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5 col-md-offset-1 col-sm-6 text-center feature">
-                    <iframe width="100%" height="350" src="https://www.youtube.com/embed/Xnf1lsZE2a8" frameborder="0"
-                            allowfullscreen></iframe>
-                </div>
-                <div class="col-md-5 col-sm-6 text-center feature">
-                    <p>No me voy a quedar en un banco a esperar la llegada de Dios ni mi juicio final, ni a que arda
-                        París ni alguien para dormir es mejor disfrutar solos la soledad</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
+    <a id="contacto" class="in-page-link"></a>
 
     <section class="details details-2 overlay parallax">
         <div class="background-image-holder fadeIn"
@@ -244,9 +245,15 @@
             <img alt="Background image" class="background-image" src="images/antigua.jpg"
                  style="display: none;">
         </div>
-
-
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h3>#bodajaviybea</h3>
+                </div>
+            </div>
+        </div>
     </section>
+
     <footer class="footer footer-1">
         <div class="container">
             <div class="row">

@@ -497,7 +497,7 @@ nav {
 
 .menu li {
     float: left;
-    margin-right: 32px;
+    margin-right: 12px;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -730,7 +730,7 @@ nav.light.scrolled .line-3 {
 .header h1 {
     font-size: 120px;
     line-height: 128px;
-    font-weight: 100;
+    font-weight: 300;
     margin-bottom: 30px;
 }
 
@@ -1709,4 +1709,11 @@ section.story-4 {
     background: #fff;
     overflow: hidden;
     position: relative;
+}
+
+.vertical-align {
+    height: 350px;
+    vertical-align: middle;
+    float: none;
+    display: table-cell;
 }
