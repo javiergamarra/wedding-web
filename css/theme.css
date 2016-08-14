@@ -1703,3 +1703,10 @@ footer {
     top: 480px; /* your iframe height */
     margin-top: -480px; /* your iframe height */
 }
+
+section.story-4 {
+    padding: 80px 0;
+    background: #fff;
+    overflow: hidden;
+    position: relative;
+}
