@@ -6,5 +6,4 @@
 
 # Javi
 
-* rsvp + comida
-* test en IE
+* test en IE -> https://www.browserstack.com
