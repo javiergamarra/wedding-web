@@ -1593,10 +1593,10 @@ footer {
 }
 
 section.story-4 {
-    padding-bottom: 80px;
+    padding-bottom: 0px;
     padding-left: 80px;
     padding-right: 80px;
-    padding-top: 0px;
+    padding-top: 80px;
     background: #fff;
     overflow: hidden;
     position: relative;
@@ -1617,4 +1617,12 @@ section.short-story {
     vertical-align: middle;
     float: none;
     display: table-cell;
+}
+
+.image-slider img {
+    height: 500px;
+}
+
+.details-1 {
+    padding-bottom: 0px;
 }
