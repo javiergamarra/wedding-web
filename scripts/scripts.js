@@ -243,6 +243,8 @@ function parallaxBackground() {
 
         }
     });
+
+    emailjs.init("user_qs6dnswcpcz3BWqWkX5Kk");
 }
 
 (function (i, s, o, g, r, a, m) {
