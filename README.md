@@ -2,7 +2,7 @@
 
 # Bea
 
-* Add real images + attribution to images
+* Add real images
 
 # Javi
 
