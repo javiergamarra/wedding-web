@@ -1596,14 +1596,14 @@ section.story-4 {
     padding-bottom: 0px;
     padding-left: 80px;
     padding-right: 80px;
-    padding-top: 80px;
+    padding-top: 120px;
     background: #fff;
     overflow: hidden;
     position: relative;
 }
 
 section.short-story {
-    padding-bottom: 40px;
+    padding-bottom: 120px;
     padding-left: 80px;
     padding-right: 80px;
     padding-top: 40px;
