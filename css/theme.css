@@ -1590,7 +1590,7 @@ footer {
 }
 
 section.story-4 {
-    padding-bottom: 0;
+    padding-bottom: 120px;
     padding-top: 120px;
     background: #fff;
     overflow: hidden;
@@ -1598,7 +1598,7 @@ section.story-4 {
 }
 
 section.short-story {
-    padding-bottom: 120px;
+    padding-bottom: 0;
     padding-top: 120px;
     background: #fff;
     overflow: hidden;
@@ -1622,4 +1622,18 @@ section.short-story {
 
 .details-1 .feature {
     margin-bottom: 0;
+}
+
+.background-us {
+    transform: translateY(0px);
+    background: url('../images/nosotros.jpg') 50% 50%;
+    top: -50%;
+}
+
+@media all and (max-width: 767px) {
+    .background-us {
+        transform: translateY(0px);
+        background: url('../images/nosotros.jpg') 50% 50%;
+        top: 0
+    }
 }
