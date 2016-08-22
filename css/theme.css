@@ -981,10 +981,6 @@ nav.light.scrolled .line-3 {
     margin-bottom: 60px;
 }
 
-.details-1 .feature {
-    margin-bottom: 60px;
-}
-
 .details-1 .feature h6 {
     color: #75c5b1;
 }
@@ -1621,5 +1617,9 @@ section.short-story {
 }
 
 .details-1 {
-    padding-bottom: 0px;
+    padding-bottom: 0;
+}
+
+.details-1 .feature {
+    margin-bottom: 0;
 }
