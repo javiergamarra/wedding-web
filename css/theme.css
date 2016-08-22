@@ -367,6 +367,7 @@ a:active {
     border: 1px solid #75c5b1;
     color: #75c5b1;
     text-align: center;
+    background: #fff;
     min-width: 160px;
     height: 55px;
     line-height: 53px;
@@ -398,7 +399,7 @@ a:active {
 
 /*!---------- COLOURS ----------*/
 .bg-secondary {
-    background: #fcfcfc;
+    background: #eee;
 }
 
 /*!---------- COVERED BACKGROUNDS ----------*/
@@ -1350,7 +1351,7 @@ input[type="submit"]:focus {
 
 .rsvp form input[type="text"] {
     height: 55px;
-    background: #fcfcfc;
+    background: #fff;
     border: 1px solid #d6d6d6;
     width: 100%;
     padding: 0 8px;
@@ -1371,6 +1372,7 @@ input[type="submit"]:focus {
 .rsvp form input[type="submit"] {
     border: 1px solid #75c5b1;
     color: #75c5b1;
+    background: #fff;
     text-align: center;
     min-width: 160px;
     height: 55px;
@@ -1383,7 +1385,6 @@ input[type="submit"]:focus {
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
-    background: none;
     font-size: 12px;
 }
 
@@ -1423,7 +1424,7 @@ input[type="submit"]:focus {
 .rsvp-2 .form-wrapper {
     width: 475px;
     margin: 0 auto;
-    background: #fcfcfc;
+    background: #eee;
     padding: 60px 0;
 }
 
@@ -1593,9 +1594,7 @@ footer {
 }
 
 section.story-4 {
-    padding-bottom: 0px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-bottom: 0;
     padding-top: 120px;
     background: #fff;
     overflow: hidden;
@@ -1604,9 +1603,7 @@ section.story-4 {
 
 section.short-story {
     padding-bottom: 120px;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 40px;
+    padding-top: 120px;
     background: #fff;
     overflow: hidden;
     position: relative;
