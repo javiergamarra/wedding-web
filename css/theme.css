@@ -1440,7 +1440,7 @@ input[type="submit"]:focus {
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     position: absolute;
-    bottom: 110%;
+    bottom: 50%;
     width: 100%;
     padding: 8px;
     color: #fff;
