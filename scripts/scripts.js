@@ -156,7 +156,7 @@ $(document).ready(function () {
                     // Keep the current error text in a data attribute on the form
                     thisForm.find('.form-error').attr('original-error', thisForm.find('.form-error').text());
                     // Show the error with the returned error text.
-                    thisForm.find('.form-error').text(errorHTTP).fadeIn(1000);
+                    thisForm.find('.form-error').text(err).fadeIn(1000);
                     thisForm.find('.form-success').fadeOut(1000);
                     $(thisForm).find('.form-loading').remove();
                     $(thisForm).find('input[type="submit"]').show();
